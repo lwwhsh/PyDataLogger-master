@@ -60,7 +60,7 @@ class XAFS_Scan(StepScan):
         """add a region to an EXAFS scan.
         Note that scans must be added in order of increasing energy
         """
-        ''' PLS BL10C calculation, but we change to Matt Newvill ecuation!
+        ''' PLS BL10C calculation, but we change to Matt Newvill equation!
         if e0 is None:
             e0 = self.e0
         if dtime is None:
