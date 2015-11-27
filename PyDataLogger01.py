@@ -473,6 +473,7 @@ class MyMainWindow(QMainWindow, PyDataLogger16GUI.Ui_MainWindow):
             nreg  = len(jconf['regions'])
             kws   = {'relative': jconf['is_relative']}
 
+
             for i in range(self.selectRegion.currentIndex()+2):
                 li = list(self.reg_settings[i])
 
